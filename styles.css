@@ -1,25 +1,87 @@
-.grid {
-    grid-template-columns: 1fr 1fr ;
+.grid-container {
+    grid-template-columns: 25px 1fr 1fr 40px 1fr 1fr 25px;
     display: grid;
-}
-.box {
-    grid-column: 1 / 2;
-    height: 500px;
-    margin: 10px;
-    background-color: whitesmoke;
-}
-#title {
-    text-align: center;
-    color: black;
-    display: block;
-    font-size: 2em;
-}
-iframe.video {
-    grid-column: 2 / 3;
-    width: 97%;
-    height: 500px;
-    margin: 10px;
+    justify-content: center;
 }
 body {
-    background-color:white;
+    background-color: #F2E4ED;
+}
+#navigation-bar-color {
+    background-color: #F23D4C;
+}
+#text-color {
+    color: #283940;
+}
+#block-1 {
+    grid-column: 1 / 8;
+    height: 20px;
+    background-color: #283940;
+}
+#block-2 {
+    grid-column: 2 / 7;
+    height: 5px;
+    background-color: #F23D4C;
+    margin: 30px 50px 30px 50px;
+}
+#block-3 {
+    grid-column: 2 / 7;
+    height: 5px;
+    background-color: #F23D4C;
+    margin: 30px 50px 30px 50px;
+}
+#dropdown-menu-color {
+    background-color: #F2E4ED;
+}
+#left-text-block {
+    grid-column: 2 / 4;
+    height: 500px;
+    background-color: #283940;
+    grid-row: 1 / 2;
+}
+#right-video-block {
+    grid-column: 5 / 7;
+    height: 500px;
+    background-color: #283940;
+    grid-row: 1 / 2;
+}
+#left-block {
+    grid-column: 1 / 2;
+    height: 500px;
+    background-color: #F2E4ED;
+}
+#right-block {
+    grid-column: 7 / 8;
+    height: 500px;
+    background-color: #F2E4ED;
+}
+
+#left-text-block-title {
+    color: #F2E4ED;
+    font-size: 2em;
+    display: block;
+    text-align: center;
+}
+#left-text-block-body {
+    color: #F2E4ED;
+    padding: 10px;
+}
+#bottom-center-text-block {
+    grid-column: 3 / 6;
+    height: fit-content;
+    background-color: #283940;
+    grid-row: 3 / 4;
+    margin-bottom: 30px;
+}
+#bottom-center-title {
+    color: #F2E4ED;
+    font-size: 2em;
+    display: block;
+    text-align: center;
+}
+#info-links {
+    color: #F2E4ED;
+    text-decoration: none;
+}
+li::marker {
+    color: #F2E4ED;
 }
