@@ -85,3 +85,6 @@ body {
 li::marker {
     color: #F2E4ED;
 }
+#navbarDropdown {
+    color: #283940;
+}
