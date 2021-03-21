@@ -1,0 +1,26 @@
+
+.grid {
+    grid-template-columns: 1fr 1fr ;
+    display: grid;
+}
+.box {
+    grid-column: 1 / 2;
+    height: 500px;
+    margin: 10px;
+    background-color: whitesmoke;
+}
+#title {
+    text-align: center;
+    color: black;
+    display: block;
+    font-size: 2em;
+}
+iframe.video {
+    grid-column: 2 / 3;
+    width: 97%;
+    height: 500px;
+    margin: 10px;
+}
+body {
+    background-color:white;
+}
