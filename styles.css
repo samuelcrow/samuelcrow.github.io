@@ -40,7 +40,7 @@ body {
 }
 #right-video-block {
     grid-column: 5 / 7;
-    height: 500px;
+    height: 500px; 
     background-color: #283940;
     grid-row: 1 / 2;
 }
@@ -64,6 +64,7 @@ body {
 #left-text-block-body {
     color: #F2E4ED;
     padding: 10px;
+    margin: 0px;
 }
 #bottom-center-text-block {
     grid-column: 3 / 6;
@@ -87,4 +88,11 @@ li::marker {
 }
 #navbarDropdown {
     color: #283940;
+}
+#list-start {
+    margin-bottom: 5px;
+}
+iframe {
+    width: 100%;
+    height: 100%;
 }
